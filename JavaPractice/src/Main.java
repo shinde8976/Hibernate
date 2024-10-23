@@ -7,10 +7,8 @@ public class Main {
         list.insertLast(12);
         list.insertLast(12);
 
-        list.display();
-        System.out.println();
-        list.removeDuplicates();
-        System.out.println();
+
+       list.insertRec(8,2);
         list.display();
 
         System.out.println("Hello world!");
