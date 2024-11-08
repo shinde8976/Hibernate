@@ -1,8 +1,6 @@
 package com.java.practice;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class StcakPractice {
     public static void main(String[] args) {
@@ -26,7 +24,9 @@ public class StcakPractice {
 //        System.out.println(queue.peek());
 //        System.out.println(queue.peek());
 
-        
+        Deque deque = new ArrayDeque();
+        deque.addFirst(45);
+        deque.addFirst(4);
 
     }
 }
